@@ -5,11 +5,16 @@ public class Main {
 
         int anoDeLancamento = 2022;
         System.out.println("Ano de lançamento:" + anoDeLancamento);
-        boolean incluidoNoPlano = true;
+      /*  boolean incluidoNoPlano = true;
         double notaDoFilme = 8.1;
-        System.out.println("Nota do Filme: " + notaDoFilme);
+        //Média calculada pelas 3 notas da Jack, Paulo e Suelem
+        double media = (9.8 + 6.3 + 8) / 3;
+        String sinopse = """
+        Filme Top Gun
+        Filme de aventura com galã dos anos 80
+        Muito bom!
+        """;
+        System.out.println(sinopse); */
 
-        double media = (9.8 + 6.3 + 8.0) /3;
-        System.out.println(media);
     }
 }
