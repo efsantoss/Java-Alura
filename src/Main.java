@@ -14,7 +14,7 @@ public class Main {
         Filme de aventura com galã dos anos 80
         Muito bom!
         """;
-        System.out.println(sinopse); */
+        System.out.println(sinopse);*/
 
     }
 }
