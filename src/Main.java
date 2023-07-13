@@ -9,6 +9,7 @@ public class Main {
         double notaDoFilme = 8.1;
         System.out.println("Nota do Filme: " + notaDoFilme);
 
-
+        double media = (9.8 + 6.3 + 8.0) /3;
+        System.out.println(media);
     }
 }
