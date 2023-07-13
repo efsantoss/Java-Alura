@@ -1,20 +1,23 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Esse é o Screen Match");
-        System.out.println("Filme: Top Gun: Maverick");
+        // Esta é uma linha de comentário que será ignorada pelo compilador
+        /* Este é um exemplo de comentário
+        de várias linhas em Java
+        que será ignorado pelo compilador */
 
-        int anoDeLancamento = 2022;
-        System.out.println("Ano de lançamento:" + anoDeLancamento);
-      /*  boolean incluidoNoPlano = true;
-        double notaDoFilme = 8.1;
-        //Média calculada pelas 3 notas da Jack, Paulo e Suelem
-        double media = (9.8 + 6.3 + 8) / 3;
-        String sinopse = """
-        Filme Top Gun
-        Filme de aventura com galã dos anos 80
-        Muito bom!
-        """;
-        System.out.println(sinopse);*/
+        //CRIAÇÃO DE STRINGS
+        /*Para criar uma String em Java,
+        basta utilizar aspas duplas para delimitar o texto.
+        Por exemplo: */
+
+        String nome = "Alura";
+        /*Nesse exemplo, a variável nome recebe uma String com o texto "Alura".
+        É possível concatenar duas ou mais Strings utilizando o operador +,
+        por exemplo: */
+
+        String saudacao = "Olá, ";
+        String mensagem = saudacao + nome + "!";
+
 
     }
 }
