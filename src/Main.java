@@ -5,6 +5,7 @@ public class Main {
 
         int anoDeLancamento = 2022;
         System.out.println("Ano de lançamento:" + anoDeLancamento);
+        double media = (9.8 + 6.3 + 8) /3;
       /*  boolean incluidoNoPlano = true;
         double notaDoFilme = 8.1;
         //Média calculada pelas 3 notas da Jack, Paulo e Suelem
@@ -15,6 +16,12 @@ public class Main {
         Muito bom!
         """;
         System.out.println(sinopse);*/
+
+        int classificacao;
+        classificacao = (int) (media /2);
+        System.out.println(classificacao);
+
+
 
     }
 }
