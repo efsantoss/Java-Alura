@@ -115,6 +115,29 @@ public class Main {
 
      */
 
+        /*
+        Casting implícito
+        O casting implícito é realizado automaticamente pelo compilador quando
+        o tipo de dado de origem é compatível com o tipo de dado de destino.
+        Por exemplo, é possível atribuir um valor de tipo int a uma variável
+        do tipo double, pois o tipo double é maior e suporta todos os valores
+        que o tipo int pode armazenar:
+         */
+
+        int x = 10;
+        double y = x; // casting implícito
+
+        /*
+        Casting explícito
+        O casting explícito é realizado quando o tipo de dado de origem é
+        incompatível com o tipo de dado de destino.
+        Nesse caso, devemos utilizar o operador de casting para realizar a
+        conversão:
+         */
+
+        double z = 10.5;
+        int r = (int) z; // casting explícito
+
     }
 
 }
