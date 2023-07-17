@@ -96,6 +96,25 @@ public class Main {
         System.out.println(mensagem);
 
 
+      /*
+
+      Existem dois tipos de casting, o casting implícito e o explícito.
+      Quando precisamos efetivamente dizer para ele, é o que chamamos de casting
+      explícito, é o que fizemos agora.
+
+      A tabela abaixo mostra, pelo tamanho, o que cabe dentro do outro.
+
+        DE / PARA :	byte	short	char	int	long	float	double
+        byte	    ---	    Impl.	(char)	Impl.	Impl.	Impl.	Impl.
+        short	    (byte)	---	    (char)	Impl.	Impl.	Impl.	Impl.
+        char	    (byte)	(char)	--- 	Impl.	Impl.	Impl.	Impl.
+        int	        (byte)	(char)	(char)	---	    Impl.	Impl.	Impl.
+        long	    (byte)	(char)	(char)	(int)	---	    Impl.	Impl.
+        float	    (byte)	(char)	(char)	(int)	(long)	---	    Impl.
+        double	    (byte)	(char)	(char)	(int)	(long)	(float)	 ---
+
+     */
+
     }
 
 }
