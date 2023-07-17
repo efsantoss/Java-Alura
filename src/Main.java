@@ -18,7 +18,7 @@ public class Main {
         String saudacao = "Olá, ";
         String mensagem = saudacao + nome + "!";
 
-<<<<<<< HEAD
+
         int anoDeLancamento = 2022;
         System.out.println("Ano de lançamento:" + anoDeLancamento);
         double media = (9.8 + 6.3 + 8) /3;
@@ -32,11 +32,10 @@ public class Main {
         Muito bom!
         """;
         System.out.println(sinopse);*/
-=======
->>>>>>> e8a93866c6e89d9492b626a94999d382cb586a53
+
 
         int classificacao;
-        classificacao = (int) (media /2);
+        classificacao = (int) (media /2);//convertendo a media de double para int
         System.out.println(classificacao);
 
 
